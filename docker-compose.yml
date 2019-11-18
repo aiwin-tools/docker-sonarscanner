@@ -1,0 +1,5 @@
+version: '2'
+services:
+    sonar:
+        container_name: aiwin-sonar
+        image: aiwin/sonar-scanner:latest
