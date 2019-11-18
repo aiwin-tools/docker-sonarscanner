@@ -8,4 +8,4 @@
 docker build -t $REGISTRY/$REPOSITORY:$TAG .
 
 # Push image to registry
-# docker push $REGISTRY/$REPOSITORY:$TAG
+docker push $REGISTRY/$REPOSITORY:$TAG

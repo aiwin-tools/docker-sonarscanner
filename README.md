@@ -1,7 +1,7 @@
-docker-sonarqube
-================
+docker-sonarscanner
+===================
 
-[Docker](https://www.docker.com/) container with [SonarQube](http://www.sonarqube.org/) and useful plugins for GitLab & Hipchat integrations
+[Docker](https://www.docker.com/) container with [SonarScanner](http://www.sonarqube.org/) and useful plugins for GitLab & Hipchat integrations
 
 Usage
 --------------
@@ -16,7 +16,7 @@ Build
 
 Run `build.sh` script to build and push the image to default location
 
-    aiwin/sonarqube-plugins:latest
+    aiwin/sonar-scanner:latest
 
 If you want to build and push the image to diferent location, define the following
 variables before the execution of the script:
