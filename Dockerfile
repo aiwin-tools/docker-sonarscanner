@@ -17,4 +17,4 @@ WORKDIR /app
 
 VOLUME /app
 
-ENTRYPOINT ["sonar-scanner"]
+CMD ["sonar-scanner"]
