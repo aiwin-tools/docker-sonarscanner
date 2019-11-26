@@ -1,8 +1,6 @@
-FROM openjdk:8-alpine
+FROM openjdk:8
 
 MAINTAINER Javier Boo "javier.boo@aiwin.es"
-
-RUN apk add --no-cache curl
 
 ENV SONAR_SCANNER_VERSION 4.2.0.1873
 RUN set -x && curl -sLo $HOME/sonar-scanner-cli-${SONAR_SCANNER_VERSION}.zip \
